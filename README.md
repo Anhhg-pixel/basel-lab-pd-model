@@ -1,12 +1,10 @@
-# Basel Lab: tôi tự xây và tự kiểm định một mô hình PD
-
-Ngô Thị Ánh Hồng · Tài chính doanh nghiệp, NEU · 11/2026
+# Basel Lab: Xây và tự kiểm định một mô hình PD
 
 Tôi làm project này vì muốn hiểu một mô hình xác suất vỡ nợ (PD) trong ngân hàng đi từ dữ liệu thô đến con số vốn như thế nào, thay vì chỉ học công thức Basel trên giấy. Tôi làm lần lượt bằng SQL, Excel và Python trên một cơ sở dữ liệu ngân hàng mô phỏng, sau đó chạy lại cùng quy trình trên dữ liệu thật German Credit.
 
 Kết quả tôi thấy đáng nói nhất: mô hình PD đạt Gini 0,78 trên tập train nhưng chỉ 0,40 trên tập test. Phần lớn thời gian cuối project tôi dành để tìm hiểu xem đó là overfitting hay chỉ là do tập test có quá ít khoản vỡ nợ.
 
-*Tình trạng (16/11/2026): toàn bộ code đã chạy được từ đầu đến cuối. Tôi đang thử binning lại một số biến và viết thêm phần kiểm định out-of-time.*
+*Tình trạng: Tôi đang thử binning lại một số biến và viết thêm phần kiểm định out-of-time.*
 
 ## Dữ liệu
 
