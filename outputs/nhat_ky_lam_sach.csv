@@ -1,0 +1,5 @@
+﻿loi,so_dong,xu_ly
+Khách hàng trùng mã,6,Giữ dòng đầu tiên
+Khoản vay không có khách hàng,3,Loại khỏi mẫu
+Dư nợ âm ở bảng loans,4,Lấy theo snapshot 31/10/2026 (khớp đối chiếu SQL)
+Có TSBĐ nhưng thiếu giá trị,5,Coi như không có TSBĐ khi tính LTV
